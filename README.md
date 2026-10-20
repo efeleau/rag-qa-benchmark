@@ -1,6 +1,6 @@
 # Does retrieval help an LLM answer questions? A RAG benchmark
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-github-username>/rag-qa-benchmark/blob/main/RAG.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/efeleau/rag-qa-benchmark/blob/main/RAG.ipynb)
 
 This project measures how much **retrieval-augmented generation (RAG)** improves an LLM's answers to factual questions, and compares four ways of retrieving passages: **BM25**, **dense retrieval**, **hybrid** (rank fusion of both) and **hybrid + cross-encoder re-ranking**. Differences between methods are tested statistically with a paired bootstrap, to separate real effects from sampling noise.
 
