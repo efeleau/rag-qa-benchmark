@@ -1,4 +1,4 @@
-# Does retrieval help an LLM answer questions? A RAG benchmark
+# Does retrieval help an LLM answer questions?
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/efeleau/rag-qa-benchmark/blob/main/RAG.ipynb)
 
