@@ -4,7 +4,7 @@
 
 This project measures how much **retrieval-augmented generation (RAG)** improves an LLM's answers to factual questions, and compares four ways of retrieving passages: **BM25**, **dense retrieval**, **hybrid** (rank fusion of both) and **hybrid + cross-encoder re-ranking**. Differences between methods are tested statistically with a paired bootstrap, to separate real effects from sampling noise.
 
-*The notebook is written and commented in French.*
+The notebook is available in two versions: [`RAG.ipynb`](RAG.ipynb) (French) and [`RAG_en.ipynb`](RAG_en.ipynb) (English), with the same code and results. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/efeleau/rag-qa-benchmark/blob/main/RAG_en.ipynb) (English version)
 
 ## Results
 
@@ -62,7 +62,7 @@ Open the notebook in Colab with the badge above, select a **T4 GPU** (`Runtime â
 To run locally (an NVIDIA GPU is recommended):
 ```bash
 pip install -r requirements.txt
-jupyter notebook RAG.ipynb
+jupyter notebook RAG.ipynb      # or RAG_en.ipynb for the English version
 ```
 
 ## Background
