@@ -55,16 +55,6 @@ Paired bootstrap on per-question Exact Match differences:
 - 300 questions: differences of 2–4 points between retrieval methods are close to the detection threshold, and five tests were run without correcting for multiple comparisons.
 - Exact Match is strict: correct answers phrased differently are counted as wrong.
 
-## How to run
-
-Open the notebook in Colab with the badge above, select a **T4 GPU** (`Runtime → Change runtime type`) and run all cells. It takes about 15 minutes.
-
-To run locally (an NVIDIA GPU is recommended):
-```bash
-pip install -r requirements.txt
-jupyter notebook RAG.ipynb      # or RAG_en.ipynb for the English version
-```
-
 ## Background
 
 This project started as a course project of the Master's in Statistics & Machine Learning at Sorbonne Université (2024). It was rebuilt in 2026 on a public dataset, with an open model and a statistical evaluation, so that every result is reproducible.
