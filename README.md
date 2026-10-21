@@ -49,7 +49,7 @@ Paired bootstrap on per-question Exact Match differences:
 
 ## Limitations
 
-- A single, small LLM (1.5B parameters): a larger model would score higher closed-book, and would probably gain less from retrieval.
+- A single, small LLM : a larger model would score higher closed-book, and would probably gain less from retrieval.
 - A small corpus (3,200 passages on related topics). Retrieval over millions of passages would be harder.
 - A single value of k (5 passages), with no hyperparameter tuning.
 - 300 questions: differences of 2–4 points between retrieval methods are close to the detection threshold, and five tests were run without correcting for multiple comparisons.
